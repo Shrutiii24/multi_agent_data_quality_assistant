@@ -1,4 +1,5 @@
 # Multi-Agent Data Quality & Analytics Assistant
+### From raw datasets to executive-ready insights through a coordinated multi-agent analytics workflow.
 
 An end-to-end multi-agent AI system that automates data profiling, quality assessment, intelligent cleaning recommendations, exploratory data analysis (EDA), and business insight generation using LangGraph, Groq LLMs, and Streamlit.
 
@@ -6,7 +7,7 @@ An end-to-end multi-agent AI system that automates data profiling, quality asses
 
 Data analysts spend a significant portion of their time preparing datasets before meaningful analysis can begin. Tasks such as profiling datasets, detecting missing values, handling duplicates, validating data types, identifying outliers, and performing exploratory analysis are repetitive yet essential.
 
-This project automates that workflow using a supervisor-driven multi-agent architecture. Instead of manually performing each preprocessing step, users simply upload a CSV or Excel dataset, review AI-generated cleaning recommendations, and receive a cleaned dataset, visual analytics, and business-ready insights through an interactive Streamlit application.
+This project automates that workflow using a supervisor-driven multi-agent architecture. Instead of manually performing each preprocessing step, users simply upload a CSV or Excel dataset, review LLM-generated cleaning recommendations, and receive a cleaned dataset, visual analytics, and business-ready insights through an interactive Streamlit application.
 
 ## Problem Statement
 
@@ -20,7 +21,7 @@ This project addresses that challenge by building a supervisor-coordinated multi
 * Supervisor Agent orchestrates specialized agents using LangGraph
 * Automated dataset profiling with summary statistics and schema analysis
 * Detection of missing values, duplicate records, datatype inconsistencies, invalid entries, and statistical outliers
-* AI-generated cleaning recommendations with human approval (Accept / Modify / Skip)
+* LLM-generated cleaning recommendations with human approval (Accept / Modify / Skip)
 * Automated execution of approved preprocessing steps
 * Exploratory Data Analysis including distributions, correlations, trends, and categorical analysis
 * LLM-powered business insight generation using Groq
@@ -47,7 +48,7 @@ Dataset Upload -> Supervisor Agent (LangGraph) -> [Profiling Agent] -> Quality A
 - Automated dataset profiling and quality assessment
 - Intelligent cleaning recommendations powered by LLMs
 - Automated exploratory data analysis (EDA)
-- AI-generated business insights from cleaned datasets
+- LLM-generated business insights from cleaned datasets
 - Interactive Streamlit web application
 - Modular, extensible architecture for future agents
   
