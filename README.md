@@ -28,35 +28,7 @@ This project addresses that challenge by building a supervisor-coordinated multi
 
 ## Architecture
 
-Dataset Upload
-       │
-       ▼
-Supervisor Agent (LangGraph)
-       │
- ┌───────────────┐
- │Profiling Agent│
- └───────────────┘
-       │
-       ▼
-Quality Agent
-       │
-       ▼
-Recommendation Agent
-       │
-       ▼
-Human Approval (Accept / Modify / Skip)
-       │
-       ▼
-Cleaning Agent
-       │
-       ▼
-EDA Agent
-       │
-       ▼
-Insight Generation Agent
-       │
-       ▼
-Executive Analytics Report
+Dataset Upload -> Supervisor Agent (LangGraph) -> [Profiling Agent] -> Quality Agent -> Recommendation Agent -> Human Approval (Accept / Modify / Skip) -> Cleaning Agent -> EDA Agent -> Insight Generation Agent -> Executive Analytics Report
 
 ## Tech Stack
 
